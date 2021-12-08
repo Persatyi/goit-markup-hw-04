@@ -57,7 +57,9 @@ ul {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+}
 
+.nav-header {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
@@ -231,9 +233,12 @@ ul {
 }
 
 .feature-thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 270px;
   height: 120px;
-  padding: 25px 102px;
   margin-bottom: 30px;
 
   border-radius: 4px;
